@@ -297,7 +297,7 @@ GO
   
 SELECT BusinessEntityID, FirstName, LastName   
 FROM Person.Person   
-WHERE FirstName LIKE '[CS]heryl';  
+WHERE FirstName LIKE '[CS]heryl%';  
 GO  
 ```  
   
@@ -308,7 +308,7 @@ GO
   
 SELECT LastName, FirstName  
 FROM Person.Person  
-WHERE LastName LIKE 'Zh[ae]ng'  
+WHERE LastName LIKE 'Zh[ae]ng%'  
 ORDER BY LastName ASC, FirstName ASC;  
 GO  
 ```  
